@@ -1,0 +1,29 @@
+.footer-container {
+  display: flex;
+
+  flex-direction: column;
+
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 20px;
+  color: white;
+
+  &__twitter_header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &__container {
+      &__twitter-logo {
+        width: 30px;
+        height: 30px;
+      }
+
+      &__footer-text {
+        color: white;
+      }
+    }
+  }
+}
