@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Solana-GIFhub/static/css/main.039a5ff4.chunk.css",
-    "main.js": "/Solana-GIFhub/static/js/main.b48f68be.chunk.js",
-    "main.js.map": "/Solana-GIFhub/static/js/main.b48f68be.chunk.js.map",
-    "runtime-main.js": "/Solana-GIFhub/static/js/runtime-main.98940d5f.js",
-    "runtime-main.js.map": "/Solana-GIFhub/static/js/runtime-main.98940d5f.js.map",
-    "static/js/2.30c5befe.chunk.js": "/Solana-GIFhub/static/js/2.30c5befe.chunk.js",
-    "static/js/2.30c5befe.chunk.js.map": "/Solana-GIFhub/static/js/2.30c5befe.chunk.js.map",
-    "index.html": "/Solana-GIFhub/index.html",
-    "static/css/main.039a5ff4.chunk.css.map": "/Solana-GIFhub/static/css/main.039a5ff4.chunk.css.map",
-    "static/js/2.30c5befe.chunk.js.LICENSE.txt": "/Solana-GIFhub/static/js/2.30c5befe.chunk.js.LICENSE.txt",
-    "static/media/twitter-logo.d89d9a86.svg": "/Solana-GIFhub/static/media/twitter-logo.d89d9a86.svg"
+    "main.css": "/Solana-GIFhub/build/static/css/main.039a5ff4.chunk.css",
+    "main.js": "/Solana-GIFhub/build/static/js/main.b48f68be.chunk.js",
+    "main.js.map": "/Solana-GIFhub/build/static/js/main.b48f68be.chunk.js.map",
+    "runtime-main.js": "/Solana-GIFhub/build/static/js/runtime-main.abb5ad15.js",
+    "runtime-main.js.map": "/Solana-GIFhub/build/static/js/runtime-main.abb5ad15.js.map",
+    "static/js/2.30c5befe.chunk.js": "/Solana-GIFhub/build/static/js/2.30c5befe.chunk.js",
+    "static/js/2.30c5befe.chunk.js.map": "/Solana-GIFhub/build/static/js/2.30c5befe.chunk.js.map",
+    "index.html": "/Solana-GIFhub/build/index.html",
+    "static/css/main.039a5ff4.chunk.css.map": "/Solana-GIFhub/build/static/css/main.039a5ff4.chunk.css.map",
+    "static/js/2.30c5befe.chunk.js.LICENSE.txt": "/Solana-GIFhub/build/static/js/2.30c5befe.chunk.js.LICENSE.txt",
+    "static/media/twitter-logo.d89d9a86.svg": "/Solana-GIFhub/build/static/media/twitter-logo.d89d9a86.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.98940d5f.js",
+    "static/js/runtime-main.abb5ad15.js",
     "static/js/2.30c5befe.chunk.js",
     "static/css/main.039a5ff4.chunk.css",
     "static/js/main.b48f68be.chunk.js"
