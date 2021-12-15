@@ -34,12 +34,8 @@ const Main = () => {
     try {
       if (solana) {
         if (solana.isPhantom) {
-          console.log("Phantom wallet found!");
           const response = await solana.connect({ onlyIfTrusted: true });
-          console.log(
-            "Connected with Public Key:",
-            response.publicKey.toString()
-          );
+
           setWalletAddress(response.publicKey.toString());
         } else {
           alert("Solana object not found! Get a Phantom Wallet");
@@ -53,14 +49,13 @@ const Main = () => {
   const connectWallet = async () => {
     if (solana) {
       const response = await solana.connect();
-      console.log("Connected with Public Key:", response.publicKey.toString());
+
       setWalletAddress(response.publicKey.toString());
     }
   };
 
   const sendGif = async () => {
     if (inputValue.length === 0) {
-      console.log("No gif link given!");
       return;
     }
     setInputValue("");
@@ -75,7 +70,6 @@ const Main = () => {
           user: provider.wallet.publicKey,
         },
       });
-      console.log("GIF successfully sent to program", inputValue);
 
       await getGifList();
     } catch (error) {
@@ -91,7 +85,6 @@ const Main = () => {
         baseAccount.publicKey
       );
 
-      console.log("Got the account", account);
       setGifList(account.gifList);
     } catch (error) {
       console.log("Error in getGifList: ", error);
